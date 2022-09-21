@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+@font-face {
+ font-family: "Azoft Sans";
+ src: url("../fonts/azoft-sans.woff2") format("woff2"), url("../fonts/azoft-sans.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Azoft Sans";
+ src: url("../fonts/azoft-sans-italic.woff2") format("woff2"), url("../fonts/azoft-sans-italic.woff") format("woff");
+ font-weight: normal;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Azoft Sans";
+ src: url("../fonts/azoft-sans-bold.woff2") format("woff2"), url("../fonts/azoft-sans-bold.woff") format("woff");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Azoft Sans";
+ src: url("../fonts/azoft-sans-bold-italic.woff2") format("woff2"), url("../fonts/azoft-sans-bold-italic.woff") format("woff");
+ font-weight: 700;
+ font-style: italic;
+ font-display: swap;
+}
+
+.headertitle {
+ font-family: 'Ubuntu', Arial, sans-serif;
+ font-weight: 300;
+}
+
+body * {
+ color: rgb(36, 36, 36);
+ font-size: 16px;
+ line-height: 1.4;
+}
+
+header * {
+ margin-bottom: 20px;
+}
+
+main,
+footer {
+ margin-left: 10px;
+}
+
+.headertitle {
+ text-align: center;
+ font-size: 70px;
+ text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+ color: rgb(32, 32, 32);
+ text-transform: capitalize;
+}
+
+.headertext {
+ font-family: 'Ubuntu', Arial, sans-serif;
+ font-weight: 300;
+ font-style: italic;
+}
+
+div>h1+div {
+ width: 250px;
+ margin: 0 auto;
+}
+
+.headerblock>div~div {
+ width: 520px;
+ margin: 0 auto;
+}
+
+header>div>div>p {
+ text-transform: capitalize;
+ text-decoration: underline;
+ text-align: center;
+ font-size: 24px;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+ color: gold;
+ line-height: 1;
+}
+
+.headerblock p>span {
+ text-transform: none;
+ color: rgb(180, 153, 0);
+}
+
+.top,
+.nameblock,
+.biographyblock,
+.mstyslavpalaceblock,
+.familyblock,
+.memberblock {
+ text-indent: 10px;
+}
+
+.top *,
+.nameblock *,
+.biographyblock *,
+.mstyslavpalaceblock *,
+.familyblock *,
+.memberblock *,
+.footerblock * {
+ font-size: 18px;
+}
+
+.top,
+.nameblock,
+.biographyblock,
+.mstyslavpalaceblock,
+.familyblock,
+.memberblock {
+ margin-bottom: 20px;
+}
+
+.biographyblock div {
+ margin-bottom: 20px;
+}
+
+.top a {
+ color: blue;
+ text-decoration: underline;
+}
+
+.top p {
+ margin-bottom: 10px;
+}
+
+.toptext span {
+ text-transform: capitalize;
+}
+
+.listname,
+.blockname {
+ font-size: 26px;
+ text-indent: 0px;
+ text-align: center;
+ margin-bottom: 20px;
+ text-decoration: underline;
+}
+
+
+ul,
+ol,
+li {
+ margin: 0px 0px 3px 15px;
+}
+
+ul>li>ul,
+ul>li>ol {
+ margin-top: 3px;
+}
+
+ul>li>ul>li,
+ul>li>ol>li {
+ color: gray;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+div.top li>a {
+ color: rgb(36, 36, 36);
+}
+
+.miniblockname {
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ text-decoration: overline underline;
+ font-family: "Azoft Sans", serif;
+ font-style: italic;
+ font-size: 20px;
+ margin-bottom: 10px;
+ color: gray;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.miniblockname+p {
+ text-indent: 0px;
+}
+
+.grandpa,
+.grandma {
+ padding: 0px 0px 0px 500px;
+ color: goldenrod;
+ text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.grandpasec,
+.grandmasec {
+ padding: 0px 0px 0px 450px;
+ color: goldenrod;
+ text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.pa,
+.ma {
+ font-size: 20px;
+ padding: 0px 0px 0px 220px;
+ color: rgb(218, 209, 32);
+ text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.8);
+}
+
+.son {
+ font-size: 22px;
+ color: rgb(242, 255, 0);
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+
+div.familyblock>ul {
+ margin-bottom: 20px;
+}
+
+
+div.footerblock>img+p {
+ text-transform: lowercase;
+ letter-spacing: -2.3px;
+ text-decoration: line-through;
+}
+
+#nowrap {
+ word-spacing: 7px;
+ white-space: nowrap;
+}
+
+div.footerblock>img~p {
+ text-align: right;
+}
+
+div.footerblock>p>mark {
+ text-shadow: 5px 5px 1px rgba(247, 0, 255, 0.5), -4px -2px 1px rgba(255, 0, 0, 0.5);
+ font-family: "Azoft Sans", Arial, serif;
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+.date {
+ font-family: "Azoft Sans", Arial, serif;
+ font-weight: 700;
+ font-style: normal;
+}
+
+p.dialogue>mark {
+ font-family: "Azoft Sans", Arial, serif;
+ font-weight: 700;
+ font-style: italic;
+}
